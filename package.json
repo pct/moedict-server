@@ -1,0 +1,19 @@
+{
+  "name": "moedict-server",
+  "version": "0.0.1",
+  "description": "moedict-server 是取用 3du.tw 的資料，使用 node js 建置的 moedict API server",
+  "main": "index.js",
+  "dependencies": {
+    "express": "~3.1.0",
+    "sequelize": ">=1.5.0",
+    "sqlite3": "~2.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
