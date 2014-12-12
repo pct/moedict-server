@@ -145,11 +145,20 @@ summary {
   font-family: 'Heiti TC';
 
   float: left;
+
+  outline: none;
+
+  -webkit-user-select:none;
 }
 summary span {
   border: 1px solid gray;
   border-radius: 1px;
+  cursor: pointer;
 }
+/*summary:focus span {
+  background: #eee;
+  /*color: #fff;*
+}*/
 
 #baseline_cover {
   background-position: 0 5px;
