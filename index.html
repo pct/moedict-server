@@ -7,183 +7,183 @@
 
 <style>
 html, input {
-  font-size: 18px;
-  text-rendering: geometricPrecision;
+	font-size: 18px;
+	text-rendering: geometricPrecision;
 }
 body { 
 /*  margin-right: 1em;
-  margin-top: 0.5em;
-  margin-bottom: 1.5em;*/
-  margin: 0;
-  font-family: 'Hiragino Mincho ProN', 'STSongti-TC-Regular', serif;
-  font-size: 1rem; /*16px;*/
-  line-height: 1.5rem; /*24px;*/
-  color: #111111;
+	margin-top: 0.5em;
+	margin-bottom: 1.5em;*/
+	margin: 0;
+	font-family: 'Hiragino Mincho ProN', 'STSongti-TC-Regular', serif;
+	font-size: 1rem; /*16px;*/
+	line-height: 1.5rem; /*24px;*/
+	color: #111111;
 
-  background: #f3f3f3;
+	background: #f3f3f3;
 }
 form {
 /*  float: left;
-  min-width: 20%;*/
+	min-width: 20%;*/
 }
 input {
-  -webkit-appearance: none;
-  border-radius: 1px;
-  border: 1px solid rgba(0,0,0,0);
-  /*border-right-color: rgba(0,0,0,0.1);*/
-  margin: -1px -1px 0 -1px;
-  padding: 0.2rem 0.5rem;
+	-webkit-appearance: none;
+	border-radius: 1px;
+	border: 1px solid rgba(0,0,0,0);
+	/*border-right-color: rgba(0,0,0,0.1);*/
+	margin: -1px -1px 0 -1px;
+	padding: 0.2rem 0.5rem;
 
-  line-height: 1.5rem;
+	line-height: 1.5rem;
 
-  background: rgba(0,0,0,0);
-  color: #666;
+	background: rgba(0,0,0,0);
+	color: #666;
 }
 input:focus {
-  background: rgba(255,255,255,0.5);
-  outline: none;
-  color: #333;
+	background: rgba(255,255,255,0.5);
+	outline: none;
+	color: #333;
 }
 output {
-  /*float: left;*/
-  display: block;
-  background: #fff;
-  min-width: 15rem;
-  max-width: 30rem;
-  /*margin: 72px;*/
-  padding: 1rem 4rem 2rem 2rem;
+	/*float: left;*/
+	display: block;
+	background: #fff;
+	min-width: 15rem;
+	max-width: 30rem;
+	/*margin: 72px;*/
+	padding: 1rem 4rem 2rem 2rem;
 
-  -webkit-user-select: none;
+	-webkit-user-select: none;
 }
 h1, ruby, h2, p, samp, blockquote, details {
-  -webkit-user-select: text;
+	-webkit-user-select: text;
 }
 h1, h2 {
-  font-weight: normal;
+	font-weight: normal;
 }
 h1  {
-  font-size: 200%;
-  font-family: BiauKai, "STKaiti", 'Hiragino Mincho ProN', serif;
+	font-size: 200%;
+	font-family: BiauKai, "STKaiti", 'Hiragino Mincho ProN', serif;
 
-  display: inline-block;
+	display: inline-block;
 }
 h2 {
-  color: white;
-  background-color: #555;
-  border-radius: 2px;
-  margin: 0;
-  padding: 1px 2px 1px 2px;
-  /*font-size: 100%;*/
-  font-size: 90%;
-  line-height: 1.1;
-  
-  display: inline-block;
-  margin-bottom: 0.75rem; /*0.375rem;*/
+	color: white;
+	background-color: #555;
+	border-radius: 2px;
+	margin: 0;
+	padding: 1px 2px 1px 2px;
+	/*font-size: 100%;*/
+	font-size: 90%;
+	line-height: 1.1;
+	
+	display: inline-block;
+	margin-bottom: 0.75rem; /*0.375rem;*/
 
-  font-family: 'Heiti TC', sans-serif;
+	font-family: 'Heiti TC', sans-serif;
 }
 ruby {
-  display: inline-block;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
-  font-size: 120%;
-  font-family: BiauKai, serif;
-  color: gray;
+	display: inline-block;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+	font-size: 120%;
+	font-family: BiauKai, serif;
+	color: gray;
 
-  margin-right: auto;
+	margin-right: auto;
 }
 ol {
-  margin: 0;
+	margin: 0;
 }
 ol li:first-child:last-child {
-  list-style-type: none;
+	list-style-type: none;
 }
 li {
-  margin-bottom: 0.75rem; /*12px;*/
+	margin-bottom: 0.75rem; /*12px;*/
 }
 p {
-  margin: 0;
+	margin: 0;
 }
 samp {
-  /*font-style: italic;*/
-  font-family: STFangSong, BiauKai;
-  color: #333;
+	/*font-style: italic;*/
+	font-family: STFangSong, BiauKai;
+	color: #333;
 }
 blockquote {
-  margin: 0;
-  color: #666;
-  font-size: 0.8rem;
-  /*font-family: STFangSong;*/
+	margin: 0;
+	color: #666;
+	font-size: 0.8rem;
+	/*font-family: STFangSong;*/
 }
 details {
-  font-family: STFangSong, 'Hiragino Mincho ProN', 'STSongti-TC-Regular', serif;
-  /*white-space: pre-wrap;*/
-  min-height: 1.5rem;
-  margin-left: -0.7rem;
+	font-family: STFangSong, 'Hiragino Mincho ProN', 'STSongti-TC-Regular', serif;
+	/*white-space: pre-wrap;*/
+	min-height: 1.5rem;
+	margin-left: -0.7rem;
 }
 details:after {
-  content: ' ';
-  clear: both;
-  margin-top: -1.5rem;
-  line-height: 0;
-  height: 0;
+	content: ' ';
+	clear: both;
+	margin-top: -1.5rem;
+	line-height: 0;
+	height: 0;
 }
 summary {
-  /*position: absolute;*/
-  display: inline-block;
-  /*border: 1px solid gray;*/
-  border-radius: 1px;
-  /*margin: -1px;*/
-  color: gray;
-  /*padding: 1px 1px 1px 1px;*/
-  margin-right: 0.5rem;/*8px;*/
+	/*position: absolute;*/
+	display: inline-block;
+	/*border: 1px solid gray;*/
+	border-radius: 1px;
+	/*margin: -1px;*/
+	color: gray;
+	/*padding: 1px 1px 1px 1px;*/
+	margin-right: 0.5rem;/*8px;*/
 
-  /*line-height: 1.1;*/
+	/*line-height: 1.1;*/
 
-  font-size: 70%;
+	font-size: 70%;
 
-  font-family: 'Heiti TC';
+	font-family: 'Heiti TC';
 
-  float: left;
+	float: left;
 
-  outline: none;
+	outline: none;
 
-  -webkit-user-select:none;
+	-webkit-user-select:none;
 }
 summary span {
-  border: 1px solid gray;
-  border-radius: 1px;
-  cursor: pointer;
+	border: 1px solid gray;
+	border-radius: 1px;
+	cursor: pointer;
 }
 /*summary:focus span {
-  background: #eee;
-  /*color: #fff;*
+	background: #eee;
+	/*color: #fff;*
 }*/
 
 #baseline_cover {
-  background-position: 0 5px;
+	background-position: 0 5px;
 }
 
 .baseliner {
-  display: none;
+	display: none;
 }
 
 @media screen and (max-width: 500px) {
-  html {
-    font-size: 15px;
-  }
-  body {
-    background: none;
-  }
-  h1, h2 {
-    margin-left: 1rem;
-  }
-  ol {
-    padding: 0 0 0 1rem;
-  }
-  output {
-    padding: 0.5rem 1.5rem 1.5rem 1.5rem;
-  }
+	html {
+		font-size: 15px;
+	}
+	body {
+		background: none;
+	}
+	h1, h2 {
+		margin-left: 1rem;
+	}
+	ol {
+		padding: 0 0 0 1rem;
+	}
+	output {
+		padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+	}
 }
 
 </style>
@@ -192,90 +192,91 @@ summary span {
 <output></output>
 
 <script>
-  var xhr = function(url, done) {
-    var xhr = new XMLHttpRequest();
-    xhr.open("GET", url);
-    xhr.send();
+	var xhr = function(url, done) {
+		var xhr = new XMLHttpRequest();
+		xhr.open("GET", url);
+		xhr.send();
 
-    xhr.onreadystatechange = function() {
-      if (xhr.status === 200)
-        done(xhr.responseText);
-    }
-  };
-  var out = document.querySelector("output"), 
-    ins = document.getElementById('s');
-  window.onsubmit = function() {
-    xhr('/s/' + ins.value, function(text) {
-      var res = JSON.parse(text);
+		xhr.onreadystatechange = function() {
+			if (xhr.readyState === 4)
+				if (xhr.status === 200)
+					done(xhr.responseText);
+		}
+	};
+	var out = document.querySelector("output"), 
+		ins = document.getElementById('s');
+	window.onsubmit = function() {
+		xhr('/s/' + ins.value, function(text) {
+			var res = JSON.parse(text);
 
-      var content = [];
+			var content = [];
 
-      function encode(x) {
-        return x.replace(/&/g, '&amp;').replace(/</g, '&lt;');
-      }
+			function encode(x) {
+				return x.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+			}
 
-      function line(text, type) {
-        return ("<" + type + ">" + encode(text) + "</" + type + ">");
-      }
+			function line(text, type) {
+				return ("<" + type + ">" + encode(text) + "</" + type + ">");
+			}
 
-      if (res && res.length > 0) {
-        var entry = res[0];
+			if (res && res.length > 0) {
+				var entry = res[0];
 
-        entry.title && content.push(line(entry.title, "h1"));
+				entry.title && content.push(line(entry.title, "h1"));
 
-        var heteronyms = entry.heteronyms;
+				var heteronyms = entry.heteronyms;
 
-        if (heteronyms && heteronyms.length > 0) {
-          heteronyms.forEach(function(heteronym) {
-            heteronym.bopomofo && content.push(line(heteronym.bopomofo, "ruby"));
+				if (heteronyms && heteronyms.length > 0) {
+					heteronyms.forEach(function(heteronym) {
+						heteronym.bopomofo && content.push(line(heteronym.bopomofo, "ruby"));
 
-            var definitions = heteronym.definitions;
+						var definitions = heteronym.definitions;
 
-            var defs = {};
+						var defs = {};
 
-            if (definitions && definitions.length > 0) {
-              definitions.forEach(function(definition) {
-                var type = definition.type;
-                var sd = [];
+						if (definitions && definitions.length > 0) {
+							definitions.forEach(function(definition) {
+								var type = definition.type;
+								var sd = [];
 
-                definition.def && sd.push(line(definition.def, "p"));
-                definition.example && sd.push(line(definition.example, "samp"));
-                definition.quote && sd.push(line(definition.quote, "blockquote"));
+								definition.def && sd.push(line(definition.def, "p"));
+								definition.example && sd.push(line(definition.example, "samp"));
+								definition.quote && sd.push(line(definition.quote, "blockquote"));
 
-                definition.synonyms && sd.push("<details><summary><span>同義</span></summary>" + encode(definition.synonyms) + "</details>");
-                definition.antonyms && sd.push("<details><summary><span>反義</span></summary>" + encode(definition.antonyms) + "</details>");
-                definition.link && sd.push("<details><summary><span>參考</span></summary>" + encode(definition.link) + "</details>");
-                
-                (defs[type] || (defs[type] = [])).push(sd.join("\n"));
-              });
-            }
+								definition.synonyms && sd.push("<details><summary><span>同義</span></summary>" + encode(definition.synonyms) + "</details>");
+								definition.antonyms && sd.push("<details><summary><span>反義</span></summary>" + encode(definition.antonyms) + "</details>");
+								definition.link && sd.push("<details><summary><span>參考</span></summary>" + encode(definition.link) + "</details>");
+								
+								(defs[type] || (defs[type] = [])).push(sd.join("\n"));
+							});
+						}
 
-            for (var i in defs) {
-              var sdef = [];
+						for (var i in defs) {
+							var sdef = [];
 
-              if (i !== "null")
-                sdef.push(line(i, "h2"));
+							if (i !== "null")
+								sdef.push(line(i, "h2"));
 
-              var ol = [];
-              defs[i].forEach(function(x) {
-                ol.push("<li>" + x + "</li>");
-              });
+							var ol = [];
+							defs[i].forEach(function(x) {
+								ol.push("<li>" + x + "</li>");
+							});
 
-              sdef.push("<ol>" + ol.join("\n") + "</ol>");
+							sdef.push("<ol>" + ol.join("\n") + "</ol>");
 
-              content.push("<section>" + sdef.join("\n") + "</section>");
-            }
-          });
-        }
-      }
+							content.push("<section>" + sdef.join("\n") + "</section>");
+						}
+					});
+				}
+			}
 
-      out.innerHTML = content.join("\n");
-    });
-    return false;
-  };
+			out.innerHTML = content.join("\n");
+		});
+		return false;
+	};
 
-  if (ins.value !== "")
-    window.onsubmit();
+	if (ins.value !== "")
+		window.onsubmit();
 </script>
 
 
@@ -284,151 +285,151 @@ summary span {
 
 <style>
 .baseliner > a > span::after, .baseliner > a::before {
-  float: left;
-  padding: 0 22px;
-  content: 'Baseline';
-  background: rgba(0, 0, 0, .5);
-  -moz-hyphens: none;
-  -webkit-hyphens: none;
-  -o-hyphens: none;
-  -ms-hyphens: none; }
+	float: left;
+	padding: 0 22px;
+	content: 'Baseline';
+	background: rgba(0, 0, 0, .5);
+	-moz-hyphens: none;
+	-webkit-hyphens: none;
+	-o-hyphens: none;
+	-ms-hyphens: none; }
 
 .baseliner {
-  position: fixed;
-  bottom: 0;
-  left: 1ex;
-  overflow: hidden;
-  border: 2px solid rgba(255, 255, 255, 0.6);
-  border-bottom: none;
-  opacity: 0.9;
-  color: rgba(255, 255, 255, 0.99);
-  font: 14px/33px "Avenir Next", Avenir, arial, sans-serif;
-  text-rendering: geometricPrecision;
-  -webkit-user-select: none;
-  -webkit-transform-origin: 0% 0%;
-  -webkit-transform: rotate(90deg) translate(-100%, -80%);
-  transform-origin: 0% 0%;
-  transform: rotate(90deg) translate(-100%, -80%);
-  cursor: pointer; }
-  .baseliner > a {
-    display: block;
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 33px; }
-    .baseliner > a > span {
-      display: block;
-      position: relative;
-      float: left;
-      width: 33px;
-      height: 33px;
-      background: rgba(0, 0, 0, .6);
-      transition: background cubic-bezier(0.24, 1, 1, 1) 0.38s; }
-    .baseliner > a > span::after {
-      position: absolute;
-      left: 33px;
-      background: rgba(0, 0, 0, .7); }
-    .baseliner > a::before {
-      transition: margin-left cubic-bezier(0.24, 1, 1, 1) 0.38s; }
-  .baseliner.on > a::before {
-    transition-timing-function: ease-in;
-    margin-left: -100%; }
-    .baseliner.on:active > a > span {
-      background: rgba(0, 0, 0, .5); }
-  .baseliner:active > a > span {
-    background: rgba(0, 0, 0, .7);
-    transition: none; }
+	position: fixed;
+	bottom: 0;
+	left: 1ex;
+	overflow: hidden;
+	border: 2px solid rgba(255, 255, 255, 0.6);
+	border-bottom: none;
+	opacity: 0.9;
+	color: rgba(255, 255, 255, 0.99);
+	font: 14px/33px "Avenir Next", Avenir, arial, sans-serif;
+	text-rendering: geometricPrecision;
+	-webkit-user-select: none;
+	-webkit-transform-origin: 0% 0%;
+	-webkit-transform: rotate(90deg) translate(-100%, -80%);
+	transform-origin: 0% 0%;
+	transform: rotate(90deg) translate(-100%, -80%);
+	cursor: pointer; }
+	.baseliner > a {
+		display: block;
+		position: relative;
+		top: 0;
+		left: 0;
+		height: 33px; }
+		.baseliner > a > span {
+			display: block;
+			position: relative;
+			float: left;
+			width: 33px;
+			height: 33px;
+			background: rgba(0, 0, 0, .6);
+			transition: background cubic-bezier(0.24, 1, 1, 1) 0.38s; }
+		.baseliner > a > span::after {
+			position: absolute;
+			left: 33px;
+			background: rgba(0, 0, 0, .7); }
+		.baseliner > a::before {
+			transition: margin-left cubic-bezier(0.24, 1, 1, 1) 0.38s; }
+	.baseliner.on > a::before {
+		transition-timing-function: ease-in;
+		margin-left: -100%; }
+		.baseliner.on:active > a > span {
+			background: rgba(0, 0, 0, .5); }
+	.baseliner:active > a > span {
+		background: rgba(0, 0, 0, .7);
+		transition: none; }
 
 html {
-  position: relative;
-  min-height: 100%;
-  min-width: 100%; }
+	position: relative;
+	min-height: 100%;
+	min-width: 100%; }
 
 #baseline_cover {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  min-width: 100%;
-  opacity: 0;
-  transition: opacity cubic-bezier(0.24, 1, 1, 1) 0.38s;
-  pointer-events: none; }
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	min-width: 100%;
+	opacity: 0;
+	transition: opacity cubic-bezier(0.24, 1, 1, 1) 0.38s;
+	pointer-events: none; }
 
 #baseline_cover.baseline {
-  opacity: 1; }
+	opacity: 1; }
 </style>
 
 <script>
 
 var Baseliner = function() {
-  "use strict";
+	"use strict";
 
-  function Baseliner(height, initialStatus) {
-    var self = this;
+	function Baseliner(height, initialStatus) {
+		var self = this;
 
-    var btn = document.createElement("div"),
-      cover = document.createElement("div"),
-      canvas = document.createElement('canvas'),
-      ctx = canvas.getContext('2d');
+		var btn = document.createElement("div"),
+			cover = document.createElement("div"),
+			canvas = document.createElement('canvas'),
+			ctx = canvas.getContext('2d');
 
-    var a = document.createElement("a");
-    a.appendChild(document.createElement("span"));
-    btn.className = "baseliner";
-    btn.appendChild(a);
-    cover.id = "baseline_cover";
+		var a = document.createElement("a");
+		a.appendChild(document.createElement("span"));
+		btn.className = "baseliner";
+		btn.appendChild(a);
+		cover.id = "baseline_cover";
 
-    var dpr = window.devicePixelRatio || 1;
+		var dpr = window.devicePixelRatio || 1;
 
-    canvas.width = 1 * dpr;
-    canvas.height = height * dpr;
-    ctx.scale(dpr, dpr);
-    ctx.beginPath();
-    ctx.moveTo(0, height);
-    ctx.lineTo(1, height);
-    ctx.lineWidth = 1;
-    ctx.strokeStyle = "rgba(0,0,0,0.5)";
-    ctx.stroke();
-    ctx.beginPath();
-    ctx.moveTo(0, height/2);
-    ctx.lineTo(1, height/2);
-    ctx.lineWidth = 1;
-    ctx.strokeStyle = "rgba(0,0,0,0.05)";
-    ctx.stroke();
+		canvas.width = 1 * dpr;
+		canvas.height = height * dpr;
+		ctx.scale(dpr, dpr);
+		ctx.beginPath();
+		ctx.moveTo(0, height);
+		ctx.lineTo(1, height);
+		ctx.lineWidth = 1;
+		ctx.strokeStyle = "rgba(0,0,0,0.5)";
+		ctx.stroke();
+		ctx.beginPath();
+		ctx.moveTo(0, height/2);
+		ctx.lineTo(1, height/2);
+		ctx.lineWidth = 1;
+		ctx.strokeStyle = "rgba(0,0,0,0.05)";
+		ctx.stroke();
 
-    cover.style.backgroundImage = ["url(", canvas.toDataURL(), ")"].join("");
-    cover.style.backgroundSize = "1px " + height + "px";
+		cover.style.backgroundImage = ["url(", canvas.toDataURL(), ")"].join("");
+		cover.style.backgroundSize = "1px " + height + "px";
 
-    document.body.appendChild(btn);
-    document.body.appendChild(cover);
+		document.body.appendChild(btn);
+		document.body.appendChild(cover);
 
-    self.btn = btn;
-    self.cover = cover;
+		self.btn = btn;
+		self.cover = cover;
 
-    self.toggle(initialStatus || false);
+		self.toggle(initialStatus || false);
 
-    btn.addEventListener("click", function() {
-      self.toggle();
-    });
+		btn.addEventListener("click", function() {
+			self.toggle();
+		});
 
-    document.addEventListener("keyup", function(e) {
-      switch (e.keyCode) {
-      case 27:
-        self.toggle();
-      }
-    });
-  }
+		document.addEventListener("keyup", function(e) {
+			switch (e.keyCode) {
+			case 27:
+				self.toggle();
+			}
+		});
+	}
 
-  Baseliner.prototype.toggle = function(status) {
-    if (status === void(0))
-      status = this.cover.classList.toggle("baseline");
-    else
-      this.cover.classList.toggle("baseline", status);
+	Baseliner.prototype.toggle = function(status) {
+		if (status === void(0))
+			status = this.cover.classList.toggle("baseline");
+		else
+			this.cover.classList.toggle("baseline", status);
 
-    this.btn.classList.toggle("on", status);
-  };
+		this.btn.classList.toggle("on", status);
+	};
 
-  return Baseliner;
+	return Baseliner;
 }();
 
 new Baseliner(27);
