@@ -73,6 +73,9 @@
 			return Entry.findAll({
 				where: "title like '" + q + "%'"
 			}).then(function(entries) {
+				if (entries.length > 1)
+					entries = [entries[0]];
+				
 				async.mapSeries(entries, function(entry, callback) {
 					entry.getHeteronyms().then(function(heteronyms) {
 						entry.heteronyms = heteronyms;
